@@ -241,6 +241,9 @@ html{
     font-weight: 800;
     font-size: 18px;
 }
+.services .service-content .col:nth-child(2) .service:nth-child(2) h3{
+    font-size: 17px;
+}
 .services .service-content .service p{
     color: #444;
     line-height: 1.6;
