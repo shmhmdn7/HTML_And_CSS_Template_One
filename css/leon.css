@@ -224,8 +224,8 @@ html{
     .services .service-content .service {
         flex-direction: column;
         text-align: center;
-        padding-bottom: 50px;
-        /* height: 250px; */
+        height: 285px;
+        margin-bottom: 35px;
     }
 }
 .services .service-content .service i{
@@ -300,6 +300,9 @@ html{
 @media (max-width: 768px){
     .portfolio .portfolio-content .card .info {
         text-align: center;
+    }
+    .portfolio .portfolio-content {
+        grid-template-columns: repeat(auto-fill, minmax(100% , 1fr));
     }
 }
 /* About Section */
